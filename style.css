@@ -58,18 +58,15 @@ h2 {
 }
 
 .backImage {
-    max-width: 100%;
-    height: auto;
-    background-color:white;
+    height:900px;
+    background-color:black;
     background-image: url('https://s2.qwant.com/thumbr/0x380/7/7/9162f4aad3aa2bcfa87b352cd2ede5a2fde9ef89f42b21c905dd4a633f96ec/for-honor-break3-1474070991575_1280w.jpg?u=https%3A%2F%2Fassets1.ignimgs.com%2Fthumbs%2FuserUploaded%2F2016%2F9%2F16%2Ffor-honor-break3-1474070991575_1280w.jpg&q=0&b=1&p=0&a=1');
     background-repeat: no-repeat;
-    background-attachment:fixed;
     background-position:center center;
     background-size: cover;
 
 }
 .logo{
-
     width: 25%;
     height: auto;
     background-position: 75% 25%;
