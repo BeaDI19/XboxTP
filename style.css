@@ -1,31 +1,29 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: center / contain no-repeat url("https://s2.qwant.com/thumbr/0x380/7/7/9162f4aad3aa2bcfa87b352cd2ede5a2fde9ef89f42b21c905dd4a633f96ec/for-honor-break3-1474070991575_1280w.jpg?u=https%3A%2F%2Fassets1.ignimgs.com%2Fthumbs%2FuserUploaded%2F2016%2F9%2F16%2Ffor-honor-break3-1474070991575_1280w.jpg&q=0&b=1&p=0&a=1"); 
+    
     }
-   body {
-        background-image: url("https://s2.qwant.com/thumbr/0x380/7/7/9162f4aad3aa2bcfa87b352cd2ede5a2fde9ef89f42b21c905dd4a633f96ec/for-honor-break3-1474070991575_1280w.jpg?u=https%3A%2F%2Fassets1.ignimgs.com%2Fthumbs%2FuserUploaded%2F2016%2F9%2F16%2Ffor-honor-break3-1474070991575_1280w.jpg&q=0&b=1&p=0&a=1");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;    
-        font-family: Verdana, sans-serif; 
+   body { 
         font-size: 100%;
-         color: black;
+        color: black;
     }
 h1 {
+    display: block;
+    font-weight: bold;
     font-size: 200%;
     font: 55.5px;
     font-family: "SegoeProBlack";
     color: white;
-    text-align: center;
+    text-align: justify;
     Padding: 6px 0px;
     }
+
 .xbox10 {
     background-color: black;
     background: center / no-repeat url('https://s2.qwant.com/thumbr/0x380/7/6/d2f4236e767ef5d7acefc585590b561baf5ffe859d5ca416dfbc559005e2a9/xbox-series-x.jpeg?u=https%3A%2F%2Fs1.ibtimes.com%2Fsites%2Fwww.ibtimes.com%2Ffiles%2Fstyles%2Fembed%2Fpublic%2F2019%2F12%2F13%2Fxbox-series-x.jpeg&q=0&b=1&p=0&a=1');
 }
 .nav {
-    background-color:black
+    background-color:black;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -46,6 +44,20 @@ h2 {
     text-align: center;
     padding: 24px 0px 4px;
 }
-.préco{
+.prï¿½co{
     background-color: lawngreen;
 }
+
+.backImage {
+    width: 300px;
+    background-image: url('https://s2.qwant.com/thumbr/0x380/7/7/9162f4aad3aa2bcfa87b352cd2ede5a2fde9ef89f42b21c905dd4a633f96ec/for-honor-break3-1474070991575_1280w.jpg?u=https%3A%2F%2Fassets1.ignimgs.com%2Fthumbs%2FuserUploaded%2F2016%2F9%2F16%2Ffor-honor-break3-1474070991575_1280w.jpg&q=0&b=1&p=0&a=1');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 150px;    
+}
+.logo{
+      font-size: 50px 50px;
+      padding: 24px 0px 4px;
+  }  
+
