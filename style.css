@@ -20,21 +20,26 @@ h1 {
     }
 
 .xbox10 {
+    height:900px;
+    background-size: cover;
     background-color: black;
-    background: center / no-repeat url('https://s2.qwant.com/thumbr/0x380/7/6/d2f4236e767ef5d7acefc585590b561baf5ffe859d5ca416dfbc559005e2a9/xbox-series-x.jpeg?u=https%3A%2F%2Fs1.ibtimes.com%2Fsites%2Fwww.ibtimes.com%2Ffiles%2Fstyles%2Fembed%2Fpublic%2F2019%2F12%2F13%2Fxbox-series-x.jpeg&q=0&b=1&p=0&a=1');
+    background-image: url('https://s2.qwant.com/thumbr/0x380/7/6/d2f4236e767ef5d7acefc585590b561baf5ffe859d5ca416dfbc559005e2a9/xbox-series-x.jpeg?u=https%3A%2F%2Fs1.ibtimes.com%2Fsites%2Fwww.ibtimes.com%2Ffiles%2Fstyles%2Fembed%2Fpublic%2F2019%2F12%2F13%2Fxbox-series-x.jpeg&q=0&b=1&p=0&a=1');
 }
 .nav {
     background-color:black;
     display: flex;
     list-style: none;
-    justify-content: space-around;
-    background: white;
-    margin-bottom: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     align-items: center;
     font-size: 2em;
+}
+.bouton{
+    background-color: black;
+    color:white;
+
 }
 
 h2 {
@@ -48,8 +53,8 @@ h2 {
 .article {
     align-content: center;
 }
-.pr�co{
-    background-color: lawngreen;
+.preco{
+ background-color: lawngreen;
 }
 
 .backImage {
@@ -64,9 +69,17 @@ h2 {
 
 }
 .logo{
+
     width: 25%;
     height: auto;
     background-position: 75% 25%;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Xbox_Velocity_Architecture.svg/1200px-Xbox_Velocity_Architecture.svg.png");
-  }  
+
+}
+.txtblanc{
+    color:white;
+}
+.newxbox{
+    align-content:flex-end;
+}
 
